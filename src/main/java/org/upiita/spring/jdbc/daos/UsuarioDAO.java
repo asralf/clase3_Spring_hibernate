@@ -8,6 +8,8 @@ public interface UsuarioDAO {
 
 	public void creaUsuario(Usuario usuario);
 	
+	//este codigo no esta completo
+	
 	public Usuario buscaPorEmailYPassword(String email, String password);
 
 }
